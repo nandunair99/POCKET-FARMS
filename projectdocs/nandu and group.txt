@@ -1,0 +1,107 @@
+1)tbladmin
+	adminid
+	username
+	password
+	emailid
+	contact
+	profilepic
+
+2)tblstate
+	stateid
+	statename
+
+3)tblcity
+	cityid
+	cityname
+	stateid
+
+4)tblcategory
+	categoryid
+	categoryname
+
+5)tblFarmer
+	farmerid
+	Fullname
+	username
+	password
+	cityID
+	address
+	adharnumber
+	profileimage
+	contactNo.
+	EmailID.
+	OptionalNumber
+	Bio
+
+6)tbluser
+	userid
+	username
+	password
+	email
+	comtact
+	profilepic
+	bio
+	cityid	
+
+7)tblTags
+	TagID
+	tagName
+	categoryID    ??
+
+8)tblProducts
+	productid
+	title
+	categoryID   ??
+	productImage
+	description
+	Season
+
+
+9)tblauction
+	auctionid
+	Title
+	productid
+	askedPrice
+	Quantity
+	Description
+	FeaturedImage
+	FarmerID
+	IsAddedByAdmin
+	StartDateTime
+	EndDateTime
+	AddedDateTime
+	Status
+
+10)tblauctionImage
+	auctionImageid
+	auctionID
+	imageUrl
+	description
+
+11)tblauctionbid
+	auctionbidID
+	userid
+	auctionid
+	OfferPrice
+	Description
+	status
+	AddedDateTime
+
+12)tblFarmerReview
+	FarmerReviewID
+	userid
+	review
+	rating
+	farmerid
+	reviewDate
+
+13)tblAuctionTransaction
+	AuctionTransactionId
+	AuctionId
+	Amount
+	Userid
+	FarmerID
+	CreatedDt	
+	Status
+
+	

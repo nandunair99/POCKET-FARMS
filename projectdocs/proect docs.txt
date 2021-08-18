@@ -1,0 +1,32 @@
+Scope:
+Admin: admin can view users
+          admin can view ,insert, update and delete categories  and tags
+          admin can view the users profile
+
+Farmer: farmer acts as a seller
+           farmer can register his/her produce on the website with necessary information like            quantity, minimum expected price and choose from the suitable tags
+           farmer can start a bid, also providing the duration for which the bid will last
+           farmer can have the deal with the highest bid the product gets
+           farmer can view and edit their own profile
+
+Customer: customer can view all products by categories, product name, farmer name, season
+             customer can view individual products with the sellers profile
+             customer can apply for bid by providing price higher than the latest bid
+             customer can give reviews about product and rate the farmer 
+              
+SRS
+functional requirements
+Logins and Registrations
+View profiles
+View by category, product name,season.
+search by keyword, farmer name, category, product name
+Password recovery
+Start and End Bid
+Apply for the Bid
+Provide Review /add comments
+ 
+non functional requirements 
+Transparency between buyer and seller
+Easy to use User Interface
+Recoverability
+Response time

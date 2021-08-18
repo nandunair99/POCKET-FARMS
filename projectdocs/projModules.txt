@@ -1,0 +1,43 @@
+Title:  E-farming :
+Users:- Farmer(seller) ,Customer(retailer , wholesaler, individual), Admin 
+Modules for Farmer-
+ 1.Create and Manage profile
+  farmer can create their profile by adding required credentials as per the requirement
+  farmer can manage profile by updating or deleting their own profile
+ 2.View products
+  farmer can view the products that they have placed to sell on the website
+  farmer can update the information about the products 
+ 3. Posting a Bid
+  farmer can post a Bid on their products after it is harvested and ready to use.
+  farmer can post a bid with a limited amount of time constraint within which the customers   can apply for the bid.
+  highest Bid will be calculated on the basis of 1.Amount 2.Duration of Pay 
+  The one with highest bid will have the deal.
+ 4.Bids on products
+  farmer can view the customers who have applied for the bid along with amount they have   offered to spend.
+ 5.Reviews
+  farmer can get to kn ow about their own service and performance by reading the reviews     given by customers
+ 
+
+Modules for Customer-
+ 1.Search 
+  customer can search for Products by product name, category, farmer name and locality.
+ 2.View 
+  customer can have the view of products sorted by
+  - price
+  - performance of the farmer  .
+  customer can view the people who have applied for the bid along with the product
+ 3.View my Bid
+  customer can view their own bid for the product and can update the price they are willing     offer.
+  customer can withdraw/give up the bid the have applied for.
+ 4.Manage Profile
+  customer can manage their profile and make required changes
+  customer can delete their profile.
+
+Modules for Admin
+ 1.Manage users
+  admin can manage the Users i.e. the farmers and customers
+  admin can add or remove the users.
+
+Other Modules
+ 1.BIlling 
+  As soon as the Transaction is successful between farmer and customer Bill generation is   carried out. The farmer, customer and the admin will have the same copy of the bill. 
